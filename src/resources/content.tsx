@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Shivam",
+  lastName: "Bunge",
+  name: `Shivam Bunge`,
+  role: "Sofware Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "shivambunge42@gmail.com",
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -25,19 +25,19 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/ShivamBunge",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/shivam-bunge/",
     essential: true,
   },
   {
     name: "Instagram",
     icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
+    link: "https://www.instagram.com/shivam_b/",
     essential: false,
   },
   {
@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between finance and engineering</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Shivam, a software engineer at <Text as="span" size="xl" weight="strong">UBS</Text>, where I craft intuitive <br /> solutions. After hours, I build my own projects.
 </>
   ),
 };
@@ -102,9 +102,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Shivam is a India-based software engineer with a passion for transforming complex challenges
+        into simple, elegant engineering solutions. His work spans frontend, backend
+        and cloud, and the convergence of finance and technology.
       </>
     ),
   },
@@ -113,9 +113,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "UBS",
+        timeframe: "2023 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -137,9 +137,9 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Global Governance Initiative",
+        timeframe: "2022 - 2023",
+        role: "Fullstack Developer Intern",
         achievements: [
           <>
             Developed a design system that unified the brand across multiple platforms, improving
@@ -159,12 +159,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
+        name: "University of Pune",
         description: <>Studied software engineering.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Army School, CBSE Board",
+        description: <>Studied science.</>,
       },
     ],
   },
@@ -173,13 +173,13 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Java",
         description: (
           <>Able to prototype in Figma with Once UI with unnatural speed.</>
         ),
         tags: [
           {
-            name: "Figma",
+            name: "Java",
             icon: "figma",
           },
         ],
